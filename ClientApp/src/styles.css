@@ -14,3 +14,15 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.update-alert {
+  border: 1px solid greenyellow;
+  padding: 1em 2em;
+  background: lightgreen;
+}
+
+#check {
+  border: none;
+  background: green;
+  color: white;
+}
