@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 body, * {
-  font-family: 'Comfortaa', cursive, 'Courier New', Courier, monospace;
+  font-family: 'Comfortaa', 'Courier New', Courier, monospace;
 }
 /* Provide sufficient contrast against white background */
 a {
