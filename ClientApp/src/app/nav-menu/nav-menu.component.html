@@ -1,44 +1,35 @@
-<header>
-  <nav
-    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3"
-  >
-    <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">SPANetCore</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target=".navbar-collapse"
-        aria-label="Toggle navigation"
-        [attr.aria-expanded]="isExpanded"
-        (click)="toggle()"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
-        [ngClass]="{ show: isExpanded }"
-      >
-        <ul class="navbar-nav flex-grow">
-          <li
-            class="nav-item"
-            [routerLinkActive]="['link-active']"
-            [routerLinkActiveOptions]="{ exact: true }"
-          >
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/counter']"
-              >Counter</a
-            >
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-              >Fetch data</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<div class="area"></div>
+<nav class="main-menu">
+  <ul>
+    <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link text-dark" [routerLink]="['/']">
+        <i class="fa fa-home fa-2x"></i>
+        <span class="nav-text">
+          Home
+        </span></a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['link-active']">
+      <a class="nav-link text-dark" [routerLink]="['/counter']">
+        <i class="fa fa-dot-circle-o fa-2x"></i>
+        <span class="nav-text">
+          Counter
+        </span></a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['link-active']">
+      <a class="nav-link text-dark" [routerLink]="['/fetch-data']">
+        <i class="fa fa-globe fa-2x"></i>
+        <span class="nav-text">
+          Fetch data
+        </span></a>
+    </li>
+  </ul>
+
+  <ul class="logout">
+    <li>
+        <i class="fa fa-power-off fa-2x"></i>
+        <span class="nav-text">
+          Logout
+        </span>
+    </li>
+  </ul>
+</nav>
