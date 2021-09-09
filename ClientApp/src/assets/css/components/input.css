@@ -1,0 +1,9 @@
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid var(--background-color);
+}
+
+input:active {
+  border: 0.1rem solid var(--background-color);
+}

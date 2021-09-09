@@ -24,7 +24,6 @@
     "@angular/service-worker": "11.0.0",
     "@nguniversal/module-map-ngfactory-loader": "8.1.1",
     "aspnet-prerendering": "^3.0.1",
-    "bootstrap": "^4.5.3",
     "core-js": "^3.7.0",
     "jquery": "^3.5.1",
     "oidc-client": "^1.9.1",
